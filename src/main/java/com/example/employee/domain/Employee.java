@@ -5,6 +5,7 @@ package com.example.employee.domain;
 import jakarta.persistence.*;
 import java.time.LocalDate;
 
+
 @Entity
 @Table(name = "employees")
 public class Employee {

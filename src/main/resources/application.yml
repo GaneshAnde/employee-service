@@ -22,3 +22,6 @@ spring:
 app:
   name: employee-service
   version: 0.0.1
+  jwt:
+    secret: "this_is_a_very_long_demo_secret_key_1234567890"  # use a longer random string in real life
+    expiryMinutes: 60
